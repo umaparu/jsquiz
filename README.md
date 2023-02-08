@@ -10,21 +10,20 @@ I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
 
-##  Criteria
+##  
 
-Created a code quiz that contains the following:
+Created a quiz application that contains the following:
 
-* A start button that when clicked a timer starts and the first question appears.
+* A start button to start the quiz which will also triger a timer. 
  
-  * Questions contain buttons for each answer.
+  * Each Questions has four options and user can select one of them.
  
   * When answer is clicked, the next question appears
  
-  * If the answer clicked was incorrect then subtract time from the clock
-
-* The quiz ends when all questions are answered or the timer reaches 0.
+  * The quiz ends when all questions are answered or the timer reaches 0.
 
   * When the game ends, it displays their score and give the user the ability to save their initials and their score
+  * It is also displays the highest score so that the user can compare the score with the highest score. 
   
 
 ### Screenshots
