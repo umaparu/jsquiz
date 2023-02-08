@@ -29,24 +29,22 @@ Created a code quiz that contains the following:
 
 ### Screenshots
 
-The home page of code quiz
-\\
+<b>The home page of code quiz</b>
+<br>
 ![The home page of code quiz .](images/01.png)
-\\
-
-\\
-after attending a question Screenshot
+<br>
+<br>
+<b>After answering a question Screenshot</b>
 ![after attending a question .](images/02.png)
-\\
-
-After answering all questions/the timer reaches 0 Screenshot
+<br>
+<br>
+<b>After answering all questions/the timer reaches 0 Screenshot</b>
 ![After answering all questions/the timer reaches 0 .](images/04.png)
-
-\\
-
-After answering all questions and entering initials showing highscore Screenshot
+<br>
+<br>
+<b>After answering all questions and entering initials showing highscore Screenshot</b>
 ![After answering all questionsand entering initials .](images/03.png)
-\\
+<br>
 
 
 
