@@ -30,21 +30,23 @@ Created a code quiz that contains the following:
 ### Screenshots
 
 The home page of code quiz
+\\
 ![The home page of code quiz .](images/01.png)
+\\
 
-
+\\
 after attending a question Screenshot
 ![after attending a question .](images/02.png)
-
-
+\\
 
 After answering all questions/the timer reaches 0 Screenshot
 ![After answering all questions/the timer reaches 0 .](images/04.png)
 
-
+\\
 
 After answering all questions and entering initials showing highscore Screenshot
 ![After answering all questionsand entering initials .](images/03.png)
+\\
 
 
 
