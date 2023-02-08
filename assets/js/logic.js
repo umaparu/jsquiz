@@ -11,7 +11,7 @@ const questions = [
   "How do you declare a JavaScript variable?",
   "Which operator is used to assign a value to a variable?"
 ];
-
+// Array options
 const options = [
   ["numbers and strings", "other arrays", "booleans", "all the above" ],
   ["strings", "booleans", "alerts", "numbers" ],
@@ -25,7 +25,7 @@ const options = [
   ["-", "=>", "==", "="]
 ];
 
-
+// Array of answers
 const answers = [
   [ 3 ],
   [ 2 ],
@@ -50,6 +50,9 @@ var stopTimer=false;
 var startBtn = document.querySelector('#start');
 // Add event listener to start button
 startBtn.addEventListener('click', statQuiz);
+
+
+// Function for starting the quiz 
 
 function statQuiz(){
   quizTimer();
@@ -82,11 +85,13 @@ function showQn() {
   choicesDiv.innerHTML = choiceHtml;
 }
 
+// Function for retreving 
 function getQuestion(){
 
   return questions[counter];
 }
 
+// Function to check answers
 function checkAns(buttonId)
 {
   var optionId=  parseInt(buttonId, 10);;
@@ -110,7 +115,7 @@ function checkAns(buttonId)
     showEndScreen();
   }
 }
-
+// Function for display the end screen once the quiz is completed
 function showEndScreen(){
   stopTimer = true;
   var stopTime;
@@ -136,26 +141,14 @@ submitBtn.addEventListener('click', addScore);
 
 function addScore(){
   
-  //localStorage.removeItem("myscore");
   var initialsTxt=document.getElementById("initials").value;
   var myScore= initialsTxt + "-" + score;
   localStorage.setItem( "myscore",  myScore);
-
-/*
-  var hScore= localStorage.getItem("highscore");
- 
-  if (hScore != null) {
-    localStorage.setItem( "myscore",  myScore);
-
-  } else {
-    localStorage.setItem( "highscore",  myScore);
-  }
-  */
   window.location.href = "./highscores.html";
 
 }
 
-
+// Timer for quiz
 function quizTimer()
 {
   var countDownDate = new Date().getTime()+ timeoutSecs;
@@ -175,7 +168,7 @@ var x = setInterval(function() {
 
   document.getElementById("time").innerHTML = seconds; // + "s ";
 
-  // If the count down is finished, write some text
+  
   //console.log(distance);
   if (distance <= 0) {  
     //clearInterval(x);
