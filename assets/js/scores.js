@@ -58,16 +58,6 @@ function showScores() {
 
   }
 
-
-
-/*
-  if (highScore == null) {
-    localStorage.setItem("highscore", myScore);
-  } else 
-  {
-    if (mScore > hScore) localStorage.setItem("highscore", myScore);
-  }
-  */
   localStorage.removeItem("myscore");
 
   listText = listText + "</ol>"
